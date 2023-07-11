@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+/* Header section */
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  padding-top: 50px;
+  gap: 100px;
+  padding-left: 130px;
+  padding-right: 120px;
+}
+.header-text-container {
+  width: 550px;
+}
+.header-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.header-description {
+  color: rgba(39, 39, 39, 0.6);
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+.header-img {
+  width: 500px;
+  height: 100vh;
+}
+.btn-primary {
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+
+  font-size: 15px;
+
+  font-weight: 700;
+}
+/* main start */
+.main-title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+.main-title-description {
+  color: rgba(39, 39, 39, 0.6);
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+/* flowers container */
+.flower-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.flower {
+  width: 300px;
+  height: 350px;
+}
+/* flowers container color */
+.pink {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.sky-blue {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.gray {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-container-image {
+  width: 200px;
+}
+/* flower-text */
+.flower-text-container {
+  display: flex;
+  justify-content: center;
+  gap: 210px;
+}
+.flower-text {
+  color: #272727;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-bottom: 130px;
+}
+/* support section */
+.support {
+  width: 950px;
+  height: 200px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 130px;
+}
+/* discount section */
+.discount-container {
+  height: 70vh;
+  display: flex;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  gap: 90px;
+}
+.discount-text {
+  text-align: center;
+}
+.discount-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.discount-images {
+  max-width: 300px;
+}
+.discount-image {
+  width: 230px;
+}
+.discount-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* Instagram container */
+.instagram-picture-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 130px;
+}
+.insta-picture {
+  width: 220px;
+}
