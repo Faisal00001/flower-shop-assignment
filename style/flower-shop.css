@@ -172,3 +172,71 @@ body {
 .insta-picture {
   width: 220px;
 }
+.subscribe-container {
+  height: 35vh;
+  width: 69vw;
+  border-radius: 8px;
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 70px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.subscribe-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscribe-description {
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.subscribe-email input[type="email"] {
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 280px;
+  padding-left: 15px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+}
+/* footer-container */
+
+.footer-container {
+  height: 50vh;
+  width: 100%;
+  color: white;
+  background-color: #111010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-title {
+  margin-bottom: 20px;
+}
+.footer-heading {
+  color: #e55473;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer-copywrite {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
